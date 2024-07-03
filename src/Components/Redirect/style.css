@@ -1,0 +1,20 @@
+.Redirect-link{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 300px;
+}
+.Redirect-link h1{
+    color: blue;
+}
+.Redirect-link a{
+
+    font-size: 3rem;
+    color:black
+}
+.Redirect-link a:hover{
+    color: var(--white);
+    cursor: pointer;
+    transition: all0.3s;
+}
